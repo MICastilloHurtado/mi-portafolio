@@ -1,7 +1,10 @@
 import Link from 'next/link'
 
 const Links = [
-  {route: '/about', label: "About"}, {route: '/', label:'Home'}]
+  {route: '/', label:'Home'},
+  {route: '/projects', label: "Proyectos"},
+  {route: '/blog', label: "Blog"},
+  {route: '/contacto', label: "Contacto"}]
 
 export default function Navigation(){
     return(

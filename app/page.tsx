@@ -1,9 +1,15 @@
-export default function App() {
+export default function Home() {
   return (
-    <div>
-      <h1>
-        Esta es mi app
-      </h1>
-    </div>
+    <section>
+      <div>
+        <h1>Esta es el primer espacio</h1>
+      </div>
+      <div>
+        <h1>Esta es el Segundp espacio</h1>
+      </div>
+      <div>
+        <h1>Esta es el tercer espacio</h1>
+      </div>
+    </section>
   )
 }
