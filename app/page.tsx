@@ -1,7 +1,11 @@
 import style from './Home.module.css'
 import photo from '../public/WhatsApp Image 2023-05-21 at 6.38.49 PM.jpeg'
+import HandleDescargarHojaDeVida from './handles/DownloadCv'
 
 export default function Home() {
+
+ 
+
   return (
     <section>
       <div className={style.container1}>
@@ -15,6 +19,7 @@ export default function Home() {
             agil y dinamico, actualmente soy graduado de Henry y estoy en busca laboral,
              hechale un vistazo a mis proyectos.
         </p>
+        <HandleDescargarHojaDeVida/>
         </div>
       </div>
       <div className={style.container2}>

@@ -1,0 +1,15 @@
+.all{
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background: var(--Primary, #FF6464);
+    font-family: Century Gothic;
+    color: white;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.all:hover{
+    background:#F13D3E ;
+}
