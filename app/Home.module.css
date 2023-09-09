@@ -51,3 +51,26 @@
     font-size: 16px;
     text-align: center;
 }
+
+.container2{
+    background-color: hsl(194, 68%, 90%);
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.iconos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icono{
+    height: 120px;
+    width: 120px;
+    margin: 20px 40px;
+}
+
+.container2 .bienvenidos{
+    margin-bottom: 50px;
+}

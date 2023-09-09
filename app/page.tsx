@@ -1,6 +1,17 @@
 import style from './Home.module.css'
 import photo from '../public/WhatsApp Image 2023-05-21 at 6.38.49 PM.jpeg'
 import HandleDescargarHojaDeVida from './handles/DownloadCv'
+import icon1 from '../icons/icons8-reaccionar-120.png'
+import icon2 from '../icons/icons8-redux-144.png'
+import icon3 from '../icons/icons8-javascript-144.png'
+import icon4 from '../icons/icons8-typescript-144.png'
+import icon5 from '../icons/icons8-node-js-144.png'
+import icon6 from '../icons/icons8-express-js-160.png'
+import icon7 from '../icons/icons8-sql-100.png'
+import icon8 from '../icons/sequelize_original_logo_icon_146348.png'
+import icon9 from '../icons/file_type_html_icon_130541.png'
+import icon10 from '../icons/file_type_css_icon_130661.png'
+import icon11 from '../icons/nextjs_icon_132160.png'
 
 export default function Home() { 
 
@@ -20,10 +31,26 @@ export default function Home() {
         </div>
       </div>
       <div className={style.container2}>
-        <h1>Esta es el Segundp espacio</h1>
+        <h1 className={style.bienvenidos}>Tecnologías</h1>
+        <div className={style.iconos}>
+          <img src={icon1.src} className={style.icono}/>
+          <img src={icon2.src} className={style.icono}/>
+          <img src={icon3.src} className={style.icono}/>
+          <img src={icon4.src} className={style.icono}/>
+          <img src={icon5.src} className={style.icono}/>
+          <img src={icon6.src} className={style.icono}/>
+          <img src={icon7.src} className={style.icono}/>
+          <img src={icon8.src} className={style.icono}/>
+          <img src={icon9.src} className={style.icono}/>
+          <img src={icon10.src} className={style.icono}/>
+          <img src={icon11.src} className={style.icono}/>
+        </div>
       </div>
       <div className={style.container3}>
         <h1>Esta es el tercer espacio</h1>
+      </div>
+      <div className={style.container4}>
+        <h1>Esta es el cuarto espacio</h1>
       </div>
     </section>
   )
