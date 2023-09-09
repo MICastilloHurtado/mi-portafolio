@@ -2,9 +2,7 @@ import style from './Home.module.css'
 import photo from '../public/WhatsApp Image 2023-05-21 at 6.38.49 PM.jpeg'
 import HandleDescargarHojaDeVida from './handles/DownloadCv'
 
-export default function Home() {
-
- 
+export default function Home() { 
 
   return (
     <section>
@@ -14,10 +12,9 @@ export default function Home() {
         </div>
         <div className={style.div2}>
         <h1 className={style.bienvenidos}>Bienvenidos, yo soy Marcos y soy programador full stack.</h1>
-        <p className={style.p1}>Mi nombre es Marcos Castillo tengo 22 años y soy FullStack web developer,
-           me gusta mucho programar, y me gustaria ser parte de un equipo de trabajo
-            agil y dinamico, actualmente soy graduado de Henry y estoy en busca laboral,
-             hechale un vistazo a mis proyectos.
+        <p className={style.p1}>Mi nombre es Marcos Castillo, tengo 22 años y soy desarrollador web Full Stack.
+         Me gusta mucho programar, y me gustaría ser parte de un equipo de trabajo ágil y dinámico. Actualmente,
+         soy graduado de Henry y estoy en búsqueda laboral. Échale un vistazo a mis proyectos.
         </p>
         <HandleDescargarHojaDeVida/>
         </div>
