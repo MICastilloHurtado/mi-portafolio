@@ -1,5 +1,6 @@
 import style from './Home.module.css'
 import photo from '../public/WhatsApp Image 2023-05-21 at 6.38.49 PM.jpeg'
+import Link from 'next/link'
 import HandleDescargarHojaDeVida from './handles/DownloadCv'
 import icon1 from '../icons/icons8-reaccionar-120.png'
 import icon2 from '../icons/icons8-redux-144.png'
@@ -47,9 +48,29 @@ export default function Home() {
         </div>
       </div>
       <div className={style.container3}>
-        <h1>Esta es el tercer espacio</h1>
+        <div className={style.minicontainer}>
+          <p>Publicaciones recientes</p>
+        <Link href='/blog'>
+          Mirar todos las publicaciones
+        </Link>
+        </div>
+        <div className={style.cajaDeComentarios}>
+          <h1>Prueba de comentarios para mi blog</h1>
+          <p>fecha del comentario</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+            </p>
+        </div>
+        <div className={style.cajaDeComentarios}>
+          <h1>Prueba de comentarios para mi blog</h1>
+          <p>fecha del comentario</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!</p>
+        </div>
       </div>
-      <div className={style.container4}>
+      <div className={style.container4} style={{background:'blue'}}>
         <h1>Esta es el cuarto espacio</h1>
       </div>
     </section>
