@@ -13,6 +13,7 @@ import icon8 from '../icons/sequelize_original_logo_icon_146348.png'
 import icon9 from '../icons/file_type_html_icon_130541.png'
 import icon10 from '../icons/file_type_css_icon_130661.png'
 import icon11 from '../icons/nextjs_icon_132160.png'
+import imagen from '../icons/imagen.jpg'
 
 export default function Home() { 
 
@@ -67,11 +68,39 @@ export default function Home() {
           <p className={style.p2}>fecha del comentario</p>
           <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
             reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
-            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!</p>
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          </p>
         </div>
       </div>
-      <div className={style.container4} style={{background:'blue'}}>
-        <h1>Esta es el cuarto espacio</h1>
+      <div className={style.container4}>
+      <p style={{fontSize:'22px', fontFamily:'Arial', fontWeight:'700', margin:'0 0 40px 0'}}>Proyectos recientes</p>
+      <div className={style.projectContainer}>
+        <div className={style.contenido}>
+          <img src={imagen.src} className={style.img}/>
+        </div>
+        <div className={style.contenido}>
+          <h1 className={style.title}>Mi projecto</h1>
+          <p className={style.p2}>fecha del projecto</p>
+          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          </p>
+        </div>
+      </div>
+      <div className={style.projectContainer}>
+        <div className={style.contenido}>
+          <img src={imagen.src} className={style.img}/>
+        </div>
+        <div className={style.contenido}>
+          <h1 className={style.title}>Mi projecto</h1>
+          <p className={style.p2}>fecha del projecto</p>
+          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          </p>
+        </div>
+      </div>
+
       </div>
     </section>
   )
