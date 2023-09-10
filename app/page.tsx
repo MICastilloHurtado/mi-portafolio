@@ -49,23 +49,23 @@ export default function Home() {
       </div>
       <div className={style.container3}>
         <div className={style.minicontainer}>
-          <p>Publicaciones recientes</p>
+          <p style={{fontSize:'22px', fontFamily:'Arial', fontWeight:'700'}}>Publicaciones recientes</p>
         <Link href='/blog'>
           Mirar todos las publicaciones
         </Link>
         </div>
         <div className={style.cajaDeComentarios}>
-          <h1>Prueba de comentarios para mi blog</h1>
-          <p>fecha del comentario</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+          <h1 className={style.title}>Prueba de comentarios para mi blog</h1>
+          <p className={style.p2}>fecha del comentario</p>
+          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
             reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
             magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
             </p>
         </div>
         <div className={style.cajaDeComentarios}>
-          <h1>Prueba de comentarios para mi blog</h1>
-          <p>fecha del comentario</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+          <h1 className={style.title}>Prueba de comentarios para mi blog</h1>
+          <p className={style.p2}>fecha del comentario</p>
+          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
             reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
             magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!</p>
         </div>
