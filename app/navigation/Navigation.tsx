@@ -7,6 +7,7 @@ const Links = [
   {route: '/', label:'Home'},
   {route: '/projects', label: "Proyectos"},
   {route: '/blog', label: "Blog"},
+  {route: '/feedback', label: "Feedback"},
   {route: '/contacto', label: "Contacto"}]
 
 export default function Navigation(){
