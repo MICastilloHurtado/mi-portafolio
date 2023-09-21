@@ -4,25 +4,55 @@ import image from '../../icons/icons8-reaccionar-120.png'
 export default function Projects(){
     return (
         <section className={style.containerMax}>
-            <h1>Proyectos</h1>
+            <h1 className={style.h1}>Proyectos</h1>
             <div className={style.projectContainer}>
-                <img src={image.src} className={style.image}/>
-                <h1 className={style.titleProject}>Ejemplo projects</h1>
-                <p className={style.p}>FechaDelProject</p>
-                <p className={style.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus in aliquam earum perferendis maiores nihil dignissimos maxime iure aut veniam reiciendis, velit hic itaque natus? Molestias ipsam alias architecto recusandae?</p>
-            </div>
-            <div className={style.projectContainer}>
-                <img src={image.src} className={style.image}/>
-                <h1 className={style.titleProject}>Ejemplo projects</h1>
-                <p className={style.p}>FechaDelProject</p>
-                <p className={style.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus in aliquam earum perferendis maiores nihil dignissimos maxime iure aut veniam reiciendis, velit hic itaque natus? Molestias ipsam alias architecto recusandae?</p>
-            </div>
-            <div className={style.projectContainer}>
-                <img src={image.src} className={style.image}/>
-                <h1 className={style.titleProject}>Ejemplo projects</h1>
-                <p className={style.p}>FechaDelProject</p>
-                <p className={style.p}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus in aliquam earum perferendis maiores nihil dignissimos maxime iure aut veniam reiciendis, velit hic itaque natus? Molestias ipsam alias architecto recusandae?</p>
-            </div>
+        <div className={style.contenido}>
+          <img src={image.src} className={style.img}/>
+        </div>
+        <div className={style.contenido}>
+          <h1 className={style.title}>Mi projecto</h1>
+          <p className={style.p}>fecha del projecto</p>
+          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          </p>
+        </div>
+      </div>
+      <div className={style.projectContainer}>
+        <div className={style.contenido}>
+          <img src={image.src} className={style.img}/>
+        </div>
+        <div className={style.contenido}>
+          <h1 className={style.title}>Mi projecto</h1>
+          <p className={style.p}>fecha del projecto</p>
+          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          </p>
+        </div>
+      </div>
+      <div className={style.projectContainer}>
+        <div className={style.contenido}>
+          <img src={image.src} className={style.img}/>
+        </div>
+        <div className={style.contenido}>
+          <h1 className={style.title}>Mi projecto</h1>
+          <p className={style.p}>fecha del projecto</p>
+          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
+            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
+            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          </p>
+        </div>
+      </div>
         </section>
     )
 }

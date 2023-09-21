@@ -54,6 +54,14 @@
     text-align: center;
 }
 
+.p{
+    background-color: black;
+    display: inline;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
 .container2{
     background-color: hsl(194, 68%, 90%);
     padding: 70px 50px;
