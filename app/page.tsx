@@ -57,7 +57,7 @@ export default function Home() {
         </div>
         <div className={style.cajaDeComentarios}>
           <h1 className={style.title}>Prueba de comentarios para mi blog</h1>
-          <p className={style.p}>fecha del comentario</p>
+          <p className={style.p2}>fecha del comentario</p>
           <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
             reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
             magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
@@ -65,7 +65,7 @@ export default function Home() {
         </div>
         <div className={style.cajaDeComentarios}>
           <h1 className={style.title}>Prueba de comentarios para mi blog</h1>
-          <p className={style.p}>fecha del comentario</p>
+          <p className={style.p2}>fecha del comentario</p>
           <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
             reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
             magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
