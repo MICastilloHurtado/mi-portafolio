@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <div className={style.container3}>
         <div className={style.minicontainer}>
-          <p style={{fontSize:'22px', fontFamily:'Arial', fontWeight:'700'}}>Publicaciones recientes</p>
+          <p style={{fontSize:'22px', fontFamily:'var(--primary-font)', fontWeight:'700'}}>Publicaciones recientes</p>
         <Link href='/blog'>
           Mirar todos las publicaciones
         </Link>
@@ -73,7 +73,7 @@ export default function Home() {
         </div>
       </div>
       <div className={style.container4}>
-      <p style={{fontSize:'22px', fontFamily:'Arial', fontWeight:'700', margin:'0 0 40px 0'}}>Proyectos recientes</p>
+      <p style={{fontSize:'22px', fontFamily:'var(--primary-font)', fontWeight:'700', margin:'0 0 40px 0'}}>Proyectos recientes</p>
       <div className={style.projectContainer}>
         <div className={style.contenido}>
           <img src={imagen.src} className={style.img}/>

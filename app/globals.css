@@ -17,6 +17,8 @@ body, h1, h2, h3, p, ul, li {
   h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #121847;
+    font-family: var(--primary-font);
   }
   
   h2 {
@@ -32,6 +34,8 @@ body, h1, h2, h3, p, ul, li {
   /* Párrafos y texto general */
   p {
     margin-bottom: 1rem;
+    color: #121847;
+    font-family: Century Gothic;
   }
   
   /* Enlaces */
