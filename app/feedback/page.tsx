@@ -6,6 +6,8 @@ export default function Feedback(){
             <h1>
             Por favor, comparte tu feedback y sugiere qué puedo mejorar o aprender para crecer.  🫶 
             </h1>
+            <div className={style.div}>
+
             <div className={style.inputContainer}>
                 <span className={style.spam}>Nombre</span>
                 <input className={style.input1}/>
@@ -15,6 +17,7 @@ export default function Feedback(){
                 <textarea className={style.input2}/>
             </div>
             <button className={style.all}>Enviar</button>
+            </div>
             <div className={style.feedbackContainer}>
                 <h1>Comentarios</h1>
                 <div className={style.feedback}>
