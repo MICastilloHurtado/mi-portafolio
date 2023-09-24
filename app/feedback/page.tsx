@@ -4,17 +4,17 @@ export default function Feedback(){
     return(
         <section className={style.containerMax}>
             <h1>
-            Deja tu feedBack y dime que piensas que puedo mejorar o aprender para ser mejor  🫶 
+            Por favor, comparte tu feedback y sugiere qué puedo mejorar o aprender para crecer.  🫶 
             </h1>
             <div className={style.inputContainer}>
-                <span>Nombre</span>
-                <input/>
+                <span className={style.spam}>Nombre</span>
+                <input className={style.input1}/>
             </div>
-            <div className={style.inputContainer}>
-                <span>texto</span>
-                <input/>
+            <div className={style.inputContainer1}>
+                <span className={style.spam}>texto</span>
+                <textarea className={style.input2}/>
             </div>
-            <button>Enviar</button>
+            <button className={style.all}>Enviar</button>
             <div className={style.feedbackContainer}>
                 <h1>Comentarios</h1>
                 <div className={style.feedback}>
