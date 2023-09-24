@@ -10,7 +10,7 @@ export default function Contacto () {
                 <h1 className={style.title}>marcos2679525@gmail.com</h1>
                 </div>
                 <div>
-                <h1>Numero</h1>
+                <h1>Número</h1>
                 <h1 className={style.title}>+57 3007479326</h1>
                 </div>
             </div>
