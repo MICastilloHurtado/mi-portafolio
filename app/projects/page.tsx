@@ -32,7 +32,7 @@ export default function Projects(){
           <img src={image.src} className={style.img}/>
         </div>
         <div className={style.contenido}>
-          <h1 className={style.title}>Mi projecto</h1>
+          <h1 className={style.title}>MoviesPlay</h1>
           <p className={style.p}>fecha del projecto</p>
           <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
             reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
@@ -45,7 +45,7 @@ export default function Projects(){
           <img src={image.src} className={style.img}/>
         </div>
         <div className={style.contenido}>
-          <h1 className={style.title}>Mi projecto</h1>
+          <h1 className={style.title}>Proyecto de Api:Countries</h1>
           <p className={style.p}>fecha del projecto</p>
           <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
             reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
