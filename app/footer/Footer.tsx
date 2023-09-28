@@ -1,7 +1,7 @@
 import twiter from '../../icons/Twitter X (1).png'
 import instagram from '../../icons/Instagram New 2022 Line.png'
 import linkedlin from '../../icons/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930587_72.png'
-import github from '../../icons/vecteezy_github-logo-black-transparent-png_24555266_956.png'
+import github from '../../icons/logotipo-de-github.png'
 import style from './footer.module.css'
 
 export default function Footer(){

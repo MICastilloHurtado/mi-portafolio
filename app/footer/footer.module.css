@@ -15,8 +15,9 @@
     
 }
 
+
 .logo:hover{
-    background-color: gray;
+    background-color: var(--Primary, #fa8d8d);;
     border-radius: 100%;
 }
 
