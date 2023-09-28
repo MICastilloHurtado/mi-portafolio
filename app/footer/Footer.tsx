@@ -9,7 +9,7 @@ export default function Footer(){
         <footer className={style.containerMax}>
             <img src={twiter.src} className={style.logo}/>
             <img src={instagram.src} className={style.logo}/>
-            <img src={github.src} className={style.logo}/>
+            <img src={github.src} className={style.logo1}/>
             <img src={linkedlin.src} className={style.logo}/>
         </footer>
     )

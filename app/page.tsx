@@ -14,6 +14,8 @@ import icon9 from '../icons/file_type_html_icon_130541.png'
 import icon10 from '../icons/file_type_css_icon_130661.png'
 import icon11 from '../icons/nextjs_icon_132160.png'
 import imagen from '../icons/imagen.jpg'
+import movies from '../icons/unnamed.webp'
+import brujula from '../icons/Brujula-2.jpg'
 
 export default function Home() { 
 
@@ -76,27 +78,33 @@ export default function Home() {
       <p style={{fontSize:'22px', fontFamily:'var(--primary-font)', fontWeight:'700', margin:'0 0 40px 0'}}>Proyectos recientes</p>
       <div className={style.projectContainer}>
         <div className={style.contenido}>
-          <img src={imagen.src} className={style.img}/>
+          <img src={movies.src} className={style.img}/>
         </div>
         <div className={style.contenido}>
-          <h1 className={style.title}>Mi projecto</h1>
-          <p className={style.p}>fecha del projecto</p>
-          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
-            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
-            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          <h1 className={style.title}>MoviesPlay</h1>
+          <p className={style.p}>24/08/2023</p>
+          <p className={style.p2}>Aplicación web full stack para comprar series y películas con un dashboard de administrador (el administador puede activar, desactivar o eliminar peliculas y series, ademas puede ver todas las ventas), carrito de compras, autenticacion de terceros, visualicacion de  contenido, uso de localStorage, paginado, filtrados y ordenamientos, barra de busqueda.
+          Logros Destacados: Integración de pasarela de pagos con Stripe, dinamismo en la página.
+          <br/>
+          Enlace: <a href='https://luiggi2092.github.io/MoviePlayFront '>Click aquí</a>
+
           </p>
         </div>
       </div>
       <div className={style.projectContainer}>
         <div className={style.contenido}>
-          <img src={imagen.src} className={style.img}/>
+          <img src={brujula.src} className={style.img}/>
         </div>
         <div className={style.contenido}>
-          <h1 className={style.title}>Mi projecto</h1>
-          <p className={style.p}>fecha del projecto</p>
-          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
-            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
-            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
+          <h1 className={style.title}>Api Paises</h1>
+          <p className={style.p}>13/07/2023</p>
+          <p className={style.p2}>Aplicación web full stack para buscar , visualizar, filtrar, y ver que actividades hay en cualquier país del mundo, además dispones de la información turística y territorial de cualquier país que se te venga a la mente, también puedes crear y eliminar tus propias actividades para los países.
+          <br/>
+Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
+<br/>
+Enlace: <a>Click Aquí</a>
+
+
           </p>
         </div>
       </div>
