@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <div className={style.div2}>
         <h1 className={style.bienvenidos}>Bienvenidos, yo soy Marcos y soy programador full stack.</h1>
-        <p className={style.p1}>Mi nombre es Marcos Castillo, tengo 22 años y soy desarrollador web Full Stack.
+        <p className={style.p1}>Mi nombre es Marcos Castillo, tengo 22 años y vivo en Medellín. 
          Me gusta mucho programar, y me gustaría ser parte de un equipo de trabajo ágil y dinámico. Actualmente,
          soy graduado de Henry y estoy en búsqueda laboral. Échale un vistazo a mis proyectos.
         </p>
