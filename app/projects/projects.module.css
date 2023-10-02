@@ -25,10 +25,12 @@
 
 .p{
     background-color: black;
-    display: flex;
+    display: inline;
     color: white;
     border-radius: 8px;
     width: 87px;
+    padding:  0 20px;
+
 }
 
 .h1{

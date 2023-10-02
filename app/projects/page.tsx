@@ -49,7 +49,8 @@ Enlace: <a>Click Aquí</a>
         <div className={style.contenido}>
           <h1 className={style.title}>Rick and Morthy api</h1>
           <p className={style.p}>24/06/2023</p>
-          <p className={style.p2}>Mi primer proyecto de programacion. Aplicación web full stack que consume la API de Rick and Morty para mostrar información sobre los personajes de la serie y permitir a los usuarios buscar, ver detalles y guardar personajes favoritos en una base de datos, ademas cuenta con formulario de registro y acceso,
+          <p className={style.p2}>Mi primer proyecto de programacion. Aplicación web full stack que consume la API de Rick and Morty para mostrar información sobre los personajes de la serie y permitir a los usuarios buscar, ver detalles y guardar personajes favoritos en una base de datos, ademas cuenta con formulario de registro y acceso.
+<br/>
 Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
 <br/>
 Enlace: <a>Click aquí</a>
