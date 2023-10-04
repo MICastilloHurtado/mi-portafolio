@@ -2,6 +2,7 @@ import style from './Home.module.css'
 import photo from '../public/WhatsApp Image 2023-05-21 at 6.38.49 PM.jpeg'
 import Link from 'next/link'
 import HandleDescargarHojaDeVida from './handles/DownloadCv'
+import GetPost2 from './services/blog2post'
 import icon1 from '../icons/icons8-reaccionar-120.png'
 import icon2 from '../icons/icons8-redux-144.png'
 import icon3 from '../icons/icons8-javascript-144.png'
@@ -50,30 +51,7 @@ export default function Home() {
           <img src={icon11.src} className={style.icono}/>
         </div>
       </div>
-      <div className={style.container3}>
-        <div className={style.minicontainer}>
-          <p style={{fontSize:'22px', fontFamily:'var(--primary-font)', fontWeight:'700'}}>Publicaciones recientes</p>
-        <Link href='/blog'>
-          Mirar todos las publicaciones
-        </Link>
-        </div>
-        <div className={style.cajaDeComentarios}>
-          <h1 className={style.title}>Prueba de comentarios para mi blog</h1>
-          <p className={style.p2}>fecha del comentario</p>
-          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
-            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
-            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
-            </p>
-        </div>
-        <div className={style.cajaDeComentarios}>
-          <h1 className={style.title}>Prueba de comentarios para mi blog</h1>
-          <p className={style.p2}>fecha del comentario</p>
-          <p className={style.p2}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fugit, 
-            reprehenderit ab porro atque facilis beatae fugiat tenetur, magni nemo, 
-            magnam ullam dolorum dolor placeat modi aspernatur quia culpa ducimus!
-          </p>
-        </div>
-      </div>
+      <GetPost2/>
       <div className={style.container4}>
       <p style={{fontSize:'22px', fontFamily:'var(--primary-font)', fontWeight:'700', margin:'0 0 40px 0'}}>Proyectos recientes</p>
       <div className={style.projectContainer}>
