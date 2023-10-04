@@ -14,10 +14,10 @@ export default async function GetPost () {
     <section className={style.containerMax}>
         <h1 className={style.h1}>Blog</h1>
 
-    {fetchData.allPost.map((post:{title:string, date:string, text:string}) => {
-        const {title, date, text} = post
+    {fetchData.allPost.map((post:{title:string, date:string, text:string, id:number}) => {
+        const {title, date, text, id} = post
         return(
-            <div className={style.blogContainer}>
+            <div className={style.blogContainer} key={id}>
                 <h1 className={style.title}>{title}</h1>
             <p className={style.p}>{date.slice(0, 10)}</p>
             <p className={style.p2}>{text}</p>

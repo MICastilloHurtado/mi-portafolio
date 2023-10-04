@@ -18,10 +18,10 @@ export default async function GetPost2 () {
           Mirar todos las publicaciones
         </Link>
         </div>
-        {fetchData.allPost.slice(0, 2).map((post:{title:string, date:string, text:string}) => {
-        const {title, date, text} = post
+        {fetchData.allPost.slice(0, 2).map((post:{title:string, date:string, text:string, id:number}) => {
+        const {title, date, text, id} = post
         return(
-            <div className={style.cajaDeComentarios}>
+            <div className={style.cajaDeComentarios} key={id}>
             <h1 className={style.title}>{title}</h1>
             <p className={style.p2}>{date.slice(0, 10)}</p>
             <p className={style.p2}>{text}</p>
