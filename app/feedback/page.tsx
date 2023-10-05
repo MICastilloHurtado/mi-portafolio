@@ -1,35 +1,41 @@
 import style from './feedBack.module.css'
+import FeedbackForm from '../services/feedBackForm'
 
-export default function Feedback(){
+const fetchComentary = () => {
+    return fetch('https://portafolio-back-ld0c.onrender.com/feedback')
+    .then(res => res.json())
+}
+
+export default async function Feedback(){
+
+    const comentarios = await fetchComentary()
+
+    console.log(comentarios)
+
     return(
         <section className={style.containerMax}>
             <h1>
             Por favor, comparte tu feedback y sugiere qué puedo mejorar o aprender para crecer.  🫶 
             </h1>
-            <div className={style.div}>
 
-            <div className={style.inputContainer}>
-                <span className={style.spam}>Nombre</span>
-                <input className={style.input1}/>
-            </div>
-            <div className={style.inputContainer1}>
-                <span className={style.spam}>texto</span>
-                <textarea className={style.input2}/>
-            </div>
-            <button className={style.all}>Enviar</button>
-            </div>
+            <FeedbackForm/>
+
+
             <div className={style.feedbackContainer}>
                 <h1>Comentarios</h1>
-                <div className={style.feedback}>
-                    <h1  className={style.title}>Julian montez</h1>
-                    <p>Fecha de comentario</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tenetur cum dolor, provident ea odio suscipit itaque quam labore quas tempora ipsum impedit possimus animi odit consectetur a eaque repudiandae.</p>
-                </div>
-                <div className={style.feedback}>
-                    <h1 className={style.title}>Julian montez</h1>
-                    <p>Fecha de comentario</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio tenetur cum dolor, provident ea odio suscipit itaque quam labore quas tempora ipsum impedit possimus animi odit consectetur a eaque repudiandae.</p>
-                </div>
+            {comentarios.allFeedBacks.map((post:{id:number, name:string, date:string, text:string}) => {
+                const {id, name, date, text} = post
+
+                return(
+                    <div className={style.feedback} key={id}>
+                        <h1  className={style.title}>{name}</h1>
+                        <p>{date.slice(0, 10)}</p>
+                        <p>{text}</p>
+                    </div>
+                )
+                
+
+            })}                
             </div>
         </section>
     )
