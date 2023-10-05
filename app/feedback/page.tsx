@@ -10,8 +10,6 @@ export default async function Feedback(){
 
     const comentarios = await fetchComentary()
 
-    console.log(comentarios)
-
     return(
         <section className={style.containerMax}>
             <h1>
@@ -20,9 +18,9 @@ export default async function Feedback(){
 
             <FeedbackForm/>
 
-
             <div className={style.feedbackContainer}>
                 <h1>Comentarios</h1>
+
             {comentarios.allFeedBacks.map((post:{id:number, name:string, date:string, text:string}) => {
                 const {id, name, date, text} = post
 
@@ -32,8 +30,7 @@ export default async function Feedback(){
                         <p>{date.slice(0, 10)}</p>
                         <p>{text}</p>
                     </div>
-                )
-                
+                )                
 
             })}                
             </div>
