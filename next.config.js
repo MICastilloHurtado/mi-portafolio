@@ -3,6 +3,9 @@ const nextConfig = {
     experimental:{
         appDir:true
     },
+    images:{
+        favicon:'./public/favicon.ico'
+    },
     reactStrictMode:true,
     
 }

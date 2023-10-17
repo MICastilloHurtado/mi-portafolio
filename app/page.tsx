@@ -64,7 +64,7 @@ export default function Home() {
           <p className={style.p2}>Aplicación web full stack para comprar series y películas con un dashboard de administrador (el administador puede activar, desactivar o eliminar peliculas y series, ademas puede ver todas las ventas), carrito de compras, autenticacion de terceros, visualicacion de  contenido, uso de localStorage, paginado, filtrados y ordenamientos, barra de busqueda.
           Logros Destacados: Integración de pasarela de pagos con Stripe, dinamismo en la página.
           <br/>
-          Enlace: <a href='https://luiggi2092.github.io/MoviePlayFront '>Click aquí</a>
+          Enlace: <a href='https://luiggi2092.github.io/MoviePlayFront ' target='_blank'>Click aquí</a>
 
           </p>
         </div>
@@ -78,9 +78,9 @@ export default function Home() {
           <p className={style.p}>13/07/2023</p>
           <p className={style.p2}>Aplicación web full stack para buscar , visualizar, filtrar, y ver que actividades hay en cualquier país del mundo, además dispones de la información turística y territorial de cualquier país que se te venga a la mente, también puedes crear y eliminar tus propias actividades para los países.
           <br/>
-Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
-<br/>
-Enlace: <a>Click Aquí</a>
+          Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
+          <br/>
+          Enlace: <a>Click Aquí</a>
 
 
           </p>
