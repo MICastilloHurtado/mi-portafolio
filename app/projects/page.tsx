@@ -16,7 +16,8 @@ export default function Projects(){
         <div className={style.contenido}>
           <h1 className={style.title}>MoviesPlay</h1>
           <p className={style.p}>24/08/2023</p>
-          <p className={style.p2}>Aplicación web full stack para comprar series y películas con un dashboard de administrador (el administador puede activar, desactivar o eliminar peliculas y series, ademas puede ver todas las ventas), carrito de compras, autenticacion de terceros, visualicacion de  contenido, uso de localStorage, paginado, filtrados y ordenamientos, barra de busqueda.
+          <p className={style.p2}>Aplicación web full stack para comprar series y películas con un dashboard de administrador (el administador puede activar, desactivar o eliminar peliculas y series, ademas puede ver todas las ventas), carrito de compras, autenticacion de terceros, visualicacion de  contenido, uso de localStorage, paginado, filtrados y ordenamientos, barra de busqueda, (para comprar en el carrito utilizar numero de tarjeta: 4242424242424242424242) 
+          <br/>
           Logros Destacados: Integración de pasarela de pagos con Stripe, dinamismo en la página.
           <br/>
           Enlace: <a href='https://luiggi2092.github.io/MoviePlayFront ' target='_blank'>Click aquí</a>
@@ -31,12 +32,9 @@ export default function Projects(){
         </div>
         <div className={style.contenido}>
           <h1 className={style.title}>api foods</h1>
-          <p className={style.p}>24/08/2023</p>
-          <p className={style.p2}>Aplicación web full stack para comprar series y películas con un dashboard de administrador (el administador puede activar, desactivar o eliminar peliculas y series, ademas puede ver todas las ventas), carrito de compras, autenticacion de terceros, visualicacion de  contenido, uso de localStorage, paginado, filtrados y ordenamientos, barra de busqueda.
-          Logros Destacados: Integración de pasarela de pagos con Stripe, dinamismo en la página.
-          <br/>
+          <p className={style.p}>02/08/2023</p>
+          <p className={style.p2}>está enfocado en el desarrollo de una API de recetas saludables para mantener un nivel de alimentación saludable, seleccionando entre cientos de recetas que te permitan facilitar tu alimentación diaria de manera eficiente y efectiva. Podrás buscar la receta de tu agrado, y seguir el paso a paso de cómo puedes prepararla, y los tipos de dietas que aplica esta receta de comida. {'(Dado el caso de que no carguen las recetas es porque llegó al limite de peticiones de la api, pero la puedes ver al otro dia si es de tu interes)'}<br/>
           Enlace: <a href='https://food-frontend-puce.vercel.app' target='_blank'>Click aquí</a>
-
           </p>
         </div>
       </div>
@@ -52,7 +50,7 @@ export default function Projects(){
           <br/>
           Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
           <br/>
-          Enlace: <a>Click Aquí</a>
+          Enlace: <a href='https://proyecto-countries.vercel.app' target='_blank'>Click Aquí</a>
 
 
           </p>
@@ -70,7 +68,7 @@ export default function Projects(){
           <br/>
           Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
           <br/>
-          Enlace: <a>Click aquí</a>
+          Enlace: <a href='https://github.com/MICastilloHurtado/Rick_and-morty' target='_blank'>Click aquí</a>
 
           </p>
         </div>

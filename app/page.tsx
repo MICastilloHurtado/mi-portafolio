@@ -80,7 +80,7 @@ export default function Home() {
           <br/>
           Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
           <br/>
-          Enlace: <a>Click Aquí</a>
+          Enlace: <a href='https://proyecto-countries.vercel.app' target='_blank'>Click Aquí</a>
 
 
           </p>
