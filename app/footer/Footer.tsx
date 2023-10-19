@@ -5,20 +5,20 @@ import github from '../../icons/logotipo-de-github.png'
 import style from './footer.module.css'
 import Link from 'next/link'
 
-export default function Footer(){
-    return(
+export default function Footer () {
+    return (
         <footer className={style.containerMax}>
             <Link href='https://twitter.com/Marcos_mich02' target='_blank'>
-            <img src={twiter.src} className={style.logo}/>
+            <img src={twiter.src} className={style.logo} alt='imagen'/>
             </Link>
             <Link href='https://www.instagram.com/marcos_bpro/' target='_blank'>
-            <img src={instagram.src} className={style.logo}/>
+            <img src={instagram.src} className={style.logo} alt='imagen'/>
             </Link>
             <Link href='https://github.com/MICastilloHurtado' target='_blank'>
-            <img src={github.src} className={style.logo1}/>
+            <img src={github.src} className={style.logo1} alt='imagen'/>
             </Link>
             <Link href='https://www.linkedin.com/in/marcos-castillo-295585268/' target='_blank'>
-            <img src={linkedlin.src} className={style.logo}/>
+            <img src={linkedlin.src} className={style.logo} alt='imagen'/>
             </Link>
         </footer>
     )

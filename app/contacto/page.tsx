@@ -15,7 +15,7 @@ export default function Contacto () {
                 </div>
             </div>
             <div className={style.right}>
-                <img src={me.src} className={style.me}/>
+                <img src={me.src} className={style.me} alt="Mi imagen"/>
             </div>
         </section>
     )

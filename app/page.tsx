@@ -1,6 +1,5 @@
 import style from './Home.module.css'
 import photo from '../public/WhatsApp Image 2023-05-21 at 6.38.49 PM.jpeg'
-import Link from 'next/link'
 import HandleDescargarHojaDeVida from './handles/DownloadCv'
 import GetPost2 from './services/blog2post'
 import icon1 from '../icons/icons8-reaccionar-120.png'
@@ -14,7 +13,6 @@ import icon8 from '../icons/sequelize_original_logo_icon_146348.png'
 import icon9 from '../icons/file_type_html_icon_130541.png'
 import icon10 from '../icons/file_type_css_icon_130661.png'
 import icon11 from '../icons/nextjs_icon_132160.png'
-import imagen from '../icons/imagen.jpg'
 import movies from '../icons/unnamed.webp'
 import brujula from '../icons/Brujula-2.jpg'
 
@@ -81,8 +79,6 @@ export default function Home() {
           Tecnologías Utilizadas: React, Node.js, Express, PostgreSQL y Sequelize.
           <br/>
           Enlace: <a href='https://proyecto-countries.vercel.app' target='_blank'>Click Aquí</a>
-
-
           </p>
         </div>
       </div>
